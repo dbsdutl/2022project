@@ -4,17 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="yyj주식회사">
-    <meta name="description" content="눈 내리는 겨울 시즌을 맞아 겨울 오리 눈사람 만들기 재료를 팔려고 합니다">
-    <meta property="og:title" content= "겨울 오리 눈사람 만들기 재료 팔아요"
-    <meta property="og:description" content="=" 겨울 오리 눈사람 ">
     <title>Document</title>
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div class="sale">
-      <div class="wrap">
+        <div class="wrap">
             <div class="top">
                 <div class="info">
                     <h1>눈오리 눈사람만들기 장난감 스노우덕 집게 1+1</h1>
@@ -22,14 +18,14 @@
 
                     <ul>
                         <li>
-                            <span>소비자가 : 10,000원</span> -> 판매가: <b>5,570 원</b> (적립 0 point)
+                            <span>소비자가 : 9,000원</span> -> 판매가: <b>8,570 원</b> (적립 0 point)
                         </li>
-                        <li>제조원/원산지 : yyj주식회사 / 대한민국</li>
+                        <li>제조원/원산지 : 뉴필드 협력업체 / 해외|아시아|중국</li>
                         <li>
                             구매 수량 : <input type="text">
                         </li>
                         <li>배송기간/배송료 : 1~2일 / 150,000원 미만 3,000원</li>
-                        <li>판매사 : yyj주식회사</li>
+                        <li>판매사 : 펀앤</li>
                     </ul>
 
                     <button class="cart">장바구니</button>

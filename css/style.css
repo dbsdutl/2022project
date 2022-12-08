@@ -1,0 +1,64 @@
+* {margin: 0; padding: 0;}
+ol,ul,li {list-style: none;}
+a {text-decoration: none;}
+body {font-size: 18px;}
+
+.sale {padding: 100px 0;}
+.sale .wrap {width: 1200px; margin: 0 auto;}
+
+.top {padding: 30px; margin-bottom: 80px;}
+.top::after {content: ''; display: block; clear: both;}
+.top .info {float: left; width: 600px; margin-right: 50px;}
+.top .img {float: left; width: 450px;}
+.top .img img {display: block; width: 100%;}
+
+.top .info h1 { font-size: 26px; margin-bottom: 30px;}
+.top .info > span {display: inline-block; font-size: 16px; color: #666; margin-bottom: 20px;}
+.top .info b {font-weight: bold; color: #000;}
+
+.top .info ul li {width: 100%; padding: 15px 0; font-size: 16px; color: #666; border-bottom: 1px solid #666;}
+.top .info ul li:last-child {border: none;}
+.top .info ul li span {font-size: 16px; color: #666;}
+.top .info ul li input[type=text] {border-radius: 0; border: 1px solid #666; padding: 5px 10px; width: 200px; height: 30px;}
+.top .info > button {display: inline-block; width: 180px; height: 55px; background-color: #f1f1f1; border: none; cursor: pointer; font-size: 22px; font-weight: bold; margin-top: 10px;}
+.top .info > .buy {background-color: #333; color: #fff;}
+
+
+.detail {position: relative;}
+.detail h2 {position: relative; width: 100%; border-bottom: 1px solid #999; margin-bottom: 80px;}
+.detail h2 span {position: absolute; display: block; font-size: 20px; color: #777; text-align: center; width: 220px; height: 40px; border: 1px solid #999; line-height: 40px; margin: 0 auto; top: 0; left: 50%; transform: translate(-50%,-50%); background-color: #fff; z-index: 10;}
+
+
+.sc {width: 1200px; margin-bottom: 80px;}
+.sc img {display: block; width: 100%; margin: 0 auto;}
+
+.video { width: 1000px; height: 600px; margin: 0 auto 80px;}
+
+.subtitle {display: block; width: 100%; font-size: 24px; text-align: center; margin-bottom: 20px;}
+.title {display: block; width: 100%; font-size: 30px; font-weight: 600; text-align: center; margin-bottom: 50px;}
+
+.sc1 img {width: 600px;}
+.sc2 img {width: 800px;}
+.sc3 img {width: 1000px;}
+.sc4 img {width: 1000px;}
+
+
+.review {width: 1200px; margin: 0 auto; border: 1px solid #ddd; border-radius: 5px; padding: 30px; }
+.review b {font-size: 18px; font-weight: bold; margin-bottom: 20px; display: block;}
+.review .box a {display: inline-block; font-size: 16px; color: rgb(224, 88, 88); border-bottom: 1px solid rgb(255, 59, 59); margin-bottom: 10px;}
+
+.review .box table {width: 100%;}
+.review .box table th {font-weight: bold; text-align: left; padding: 8px; width: 25%;}
+.review .box table td {font-weight: bold; text-align: center; padding: 8px;}
+.review .box table .bg {background-color: #f7f7f7; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align: center;}
+
+.pagination {text-align: center; margin-top: 30px;}
+.pagination button {display: inline-block; width: 20px; height: 20px; border-radius: 50%; border: 1px solid #ddd; cursor: pointer;}
+.pagination span {display: inline-block;}
+
+.comment {width: 100%; border: 1px solid #ddd; padding: 30px; border-radius: 5px; margin-top: 30px;}
+.comment b {font-weight: bold; display: block; margin-bottom: 30px;}
+.comment b.inputTitle { margin-bottom: 10px;}
+.comment .list {background-color: #f7f7f7; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align: center; font-weight: bold; padding: 8px; margin-bottom: 30px;}
+.comment .commentInput {width: calc(100% - 100px); height: 30px; margin-right: 10px;}
+.comment .submit { display: inline-block; width: 80px; height: 35px; background-color: #ddd; border: 1px solid #999; font-weight: bold; cursor: pointer;}

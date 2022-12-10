@@ -62,3 +62,19 @@ body {font-size: 18px;}
 .comment .list {background-color: #f7f7f7; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align: center; font-weight: bold; padding: 8px; margin-bottom: 30px;}
 .comment .commentInput {width: calc(100% - 100px); height: 30px; margin-right: 10px;}
 .comment .submit { display: inline-block; width: 80px; height: 35px; background-color: #ddd; border: 1px solid #999; font-weight: bold; cursor: pointer;}
+/* footer 하단 고정 [S] */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#body-wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#body-content {
+    margin-top: 100px;
+    padding-bottom: 99999px; /* footer의 높이 */
+}
